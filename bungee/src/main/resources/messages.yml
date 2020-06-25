@@ -1,0 +1,23 @@
+prefix: '&7[&cBungeeAuth&7]'
+message:
+  help:
+    admin:
+      - '%prefix% &e/bauth reload &8- &7reloads the plugin config'
+      - '%prefix% &e/bauth info <name> &8- &7shows info about a player'
+    user:
+      - '%prefix% &e/bauth help &8- &7shows this help section'
+      - '%prefix% &e/bauth <code> &8- &7verify your access'
+      - '%prefix% &e/bauth register &8- &7register for authentication'
+  success: '%prefix% &aWelcome &7%s&a, you have been authenticated!'
+  failed: '%prefix% &cThe code %s is invalid!'
+  failed-code-too-long: '%prefix% The provided code %s is too long!'
+  reload-success: '%prefix% &aYou''ve successfully reloaded the config!'
+  already-loggedin: '%prefix% &aYou are already authenticated!'
+  already-registered: '%prefix% &cYou are already registered!'
+  code:
+    - '%prefix% &eYour authenticator code is &7''%s'''
+    - '%prefix% &ePlease be careful with this code. If you use it you will be not able to login!'
+    - '%prefix% &ePlease proceed now with logging in /bauth <code>'
+  registration-needed: '%prefix% &ePlease register using /bauth register'
+  login: '%prefix% &cPlease confirm your identity!'
+  auto-login-success: '%prefix% &aWelcome &7%s&a, you were loggedin automatically because your location is known!'

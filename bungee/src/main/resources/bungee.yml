@@ -1,0 +1,4 @@
+name: BungeeAuth
+author: TheRealDomm
+version: 2.0
+main: org.endertools.bungeeauth.WrappedPlugin

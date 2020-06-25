@@ -1,0 +1,22 @@
+######################################################
+################# CONFIG VERSION 1.0 #################
+######################################################
+
+#Provide Database Credentials, this is needed!
+mysql:
+  host: '127.0.0.1'
+  port: 3306
+  database: 'auth'
+  username: 'auth'
+  password: 'secure_auth_password'
+
+#Some settings where you can tweak things
+settings:
+  session-timeout-hours: 48
+  proxy-check-api-key: 'please-request' #request at https://proxycheck.io/
+  hashing-key: 'please generate 64chars long random string at https://www.randomcodegenerator.com/en/generate-serial-numbers'
+  proxy-check-request-limit: 1000 #Default with free is 1000
+  idle-time-verify-minutes: 5
+  max-failed-attemps: 3
+  commands-on-max-failed:
+    - 'ban %s You got banned because of too many failed logins!' #The variable %s will be replaced with the players name

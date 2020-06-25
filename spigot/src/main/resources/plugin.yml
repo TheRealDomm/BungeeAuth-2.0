@@ -1,0 +1,4 @@
+name: BungeeAuth
+version: 2.0
+main: org.endertools.bungeeauth.AuthenticatorPlugin
+author: TheRealDomm
